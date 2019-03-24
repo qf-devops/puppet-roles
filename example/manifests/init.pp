@@ -30,7 +30,7 @@ file {'/tmp/a.txt':
 }
 file {'/tmp/server.xml':
     ensure => file,
-    source =>'puppet:///module_files/example/files/server.xml'
+    source =>'puppet:///modules/example/server.xml'
 }
 file {'/tmp/server-temp.xml':
     ensure => file,
